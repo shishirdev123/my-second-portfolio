@@ -3,6 +3,16 @@ body{
     
 }
 
+.section-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.junior-expert{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
 .welcome{
     color: paleturquoise;
     font-family: 'Playfair Display', serif;
@@ -11,11 +21,19 @@ body{
 
 .sisir{
     color: tomato;
+    font-size: 25px;
 }
+
+
 
 .introduce{
     color: paleturquoise;
     font-size: 40px;
+}
+
+.expert{
+    color: paleturquoise;
+    font-size: 30px;
 }
 
 .my-paragraph{
@@ -58,19 +76,23 @@ body{
     margin-bottom: 150px;
 } 
 
-.stack{
+.fst-box{
     width: 40%;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 50px;
-    box-shadow: 10px 10px 40px white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px rgb(247, 207, 135);
 }
 
-#junior .stack{
-    width: 50% solid;
-    color: paleturquoise;
-
+#nx-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan,blue);
+    border-image-slice: 1;
+}
+#nx-border2{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, purple);
+    border-image-slice: 1;
 }
     
