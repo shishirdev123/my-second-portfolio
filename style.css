@@ -1,5 +1,6 @@
 body{
     background-image: url(pngtree-fashion-navy-blue-cloth-pattern-texture-background-image_537803.jpg);
+    
 }
 
 .welcome{
@@ -35,4 +36,41 @@ body{
 .half-wide{
     width: 50%;
     padding: 2%;
+    
 }
+
+.flexible{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half-wide img{
+    width: 600px;
+}
+
+.flexible2 img{
+    border-radius: 50px;
+    
+}
+
+.flexible2{
+    display: flex;
+    margin-bottom: 150px;
+} 
+
+.stack{
+    width: 40%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 40px white;
+}
+
+#junior .stack{
+    width: 50% solid;
+    color: paleturquoise;
+
+}
+    
